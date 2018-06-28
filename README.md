@@ -46,7 +46,7 @@ On demande à l'utilsiateur de saisir un chiffre entre 2 et 20 pour créer une f
          *          
 ```
 
-## Contributeurs (languages par ordre alphabétique)
+## Contributeurs (langages par ordre alphabétique)
   * [bash](./arrow.sh) → [@smussie](https://github.com/smussie)
   * [nodejs](./arrow.js) → [@ponsfrilus](https://github.com/ponsfrilus)
   * [perl](./arrow.pl) → [@domq](https://github.com/domq)
