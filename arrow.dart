@@ -1,10 +1,19 @@
-void main() {
-  var length = 10;
+#!/usr/bin/env dart
+// 2018-06-29 EPFL DOJO — https://www.dartlang.org/
+
+void main(List<String> args) {
+
+  // Dart 2: int length = int.tryParse(args[0]) ?? 8;
+  var length = int.parse(args[0], onError: (source) => null);
+  assert(length is int);
+
+  // Draw the arrow
   print(tip(length));
   head(length);
   for (final t in tail(length)) {
     print(t);
   }
+
 }
 
 string tip(length) {
@@ -17,7 +26,6 @@ string head(length) {
   }
   print('* ' * length + '*');
 }
-
 
 List tail(length) {
   var list = new List(length);
