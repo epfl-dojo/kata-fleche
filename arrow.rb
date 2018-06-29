@@ -8,27 +8,19 @@ space_between = -1
   text = ''
 
   if line == height
-    (1..height * 2 - 1).each do
-      text += '*'
-    end
+    (1..height * 2 - 1).each { text += '*' }
   elsif line < height
-    (1..height - line).each do
-      text += ' '
-    end
+    (1..height - line).each { text += ' '}
 
     text += '*'
 
     if space_between > 0
-      (1..space_between).each do
-        text += ' '
-      end
+      (1..space_between).each { text += ' ' }
     end
 
     text += '*' if line != 1
   else
-    (1..height - 1).each do
-      text += ' '
-    end
+    (1..height - 1).each { text += ' ' }
     text += '*'
   end
 
