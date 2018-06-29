@@ -15,10 +15,15 @@ sub tete {
   my @retval = my $tranche_de_tete = pointe($taille);
   foreach my $i (0 .. $taille - 2) {
     if ($i == 0) {
-      $tranche_de_tete =~ s/ \*/* */;
+      # Remplaçons "*" par "* *"
+      $tranche_de_tete =~ s/[*]/* */;
     } else {
-      $tranche_de_tete =~ s/( *) \*( *\*)/$1*  $2/;
+      # Ajoutons deux espaces entre les étoiles
+      $tranche_de_tete =~ s/[*]( *)[*]/*$1  */;
     }
+    # Dans les deux cas, il faut ensuite décaler toute la tranche d'un
+    # espace vers la gauche
+    $tranche_de_tete =~ s/^ //;
     push @retval, $tranche_de_tete;
   }
   return @retval;
