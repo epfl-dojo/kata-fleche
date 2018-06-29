@@ -4,8 +4,11 @@
 (defn tip [length]
   (str (apply str (repeat length " ")) "*"))
 
+(defn headSlice [leftS floor]
+  (str (strTimes " " leftS) "*" (strTimes " " (- (* floor 2) 1)) "*"))
+
 (defn head [length]
-  (reverse (map #(str (strTimes " " %) "*" ) (take length (range)))))
+  (reverse (map #(headSlice % (- length %)) (take length (range)))))
 
 (defn tail [length]
   (repeat length (tip length)))
