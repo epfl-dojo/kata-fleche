@@ -5,7 +5,7 @@ Kata: créer une flèche pointant vers le haut en fonction de la taille spécifi
 Cet exercice permet de travailler les boucles et la logique dans le langages de votre choix.
 
 ## Comment procéder
-[Forker](https://github.com/epfl-dojo/kata-fleche/#fork-destination-box) le repo et créer une branche (`git checkout -b username-langage` par exemple `git checkout -b ponsfrilus-nodejs`, depuis votre fork). Faire ensuite une pull request pour l'ajouter à ce repo.
+[Forker](https://github.com/epfl-dojo/kata-fleche/#fork-destination-box) le repo et créer une branche (`git checkout -b username-langage` par exemple `git checkout -b ponsfrilus-nodejs`, depuis votre fork). Faites ensuite une pull request pour l'ajouter à ce repo vous ajoutant comme contributeurs en bas de ce fichier.
 
 ## Problème
 On demande à l'utilsiateur de saisir un chiffre entre 2 et 20 pour créer une flèche pointée vers le haut.
@@ -14,7 +14,7 @@ On demande à l'utilsiateur de saisir un chiffre entre 2 et 20 pour créer une f
 ```
    *   
   * *  
- *   * 
+ *   *
 *******
    *   
    *   
@@ -32,7 +32,7 @@ On demande à l'utilsiateur de saisir un chiffre entre 2 et 20 pour créer une f
     *         *    
    *           *   
   *             *  
- *               * 
+ *               *
 *******************
          *         
          *         
@@ -45,3 +45,10 @@ On demande à l'utilsiateur de saisir un chiffre entre 2 et 20 pour créer une f
          *         
          *          
 ```
+
+## Contributeurs (langages par ordre alphabétique)
+  * [bash](./arrow.sh) → [@smussie](https://github.com/smussie)
+  * [nodejs](./arrow.js) → [@ponsfrilus](https://github.com/ponsfrilus)
+  * [perl](./arrow.pl) → [@domq](https://github.com/domq)
+  * [python](./arrow.py) → [@iioel](https://github.com/iioel)
+  * [ruby](./arrow.rb) → [@loichu](https://github.com/loichu)
