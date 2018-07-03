@@ -49,6 +49,7 @@ On demande à l'utilsiateur de saisir un chiffre entre 2 et 20 pour créer une f
 ## Contributeurs (langages par ordre alphabétique)
   * [bash](./arrow.sh) → [@smussie](https://github.com/smussie)
   * [dart](./arrow.dart) → [@epfl-dojo](https://github.com/epfl-dojo)
+  * [go](./arrow.go) → [@gcmalloc](https://github.com/gcmalloc)
   * [nodejs](./arrow.js) → [@ponsfrilus](https://github.com/ponsfrilus)
   * [perl](./arrow.pl) → [@domq](https://github.com/domq)
   * [python](./arrow.py) → [@iioel](https://github.com/iioel)
