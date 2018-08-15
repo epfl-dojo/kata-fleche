@@ -55,3 +55,5 @@ On demande à l'utilsiateur de saisir un chiffre entre 2 et 20 pour créer une f
   * [python](./arrow.py) → [@iioel](https://github.com/iioel)
   * [ruby](./arrow.rb) → [@loichu](https://github.com/loichu)
   * [rust](./arrow.rs) → [@iioel](https://github.com/iioel)
+  * [lua](./arrow.lua) → [@strikerpt](https://github.com/strikerpt)
+
