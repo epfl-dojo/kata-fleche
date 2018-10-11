@@ -56,4 +56,4 @@ On demande à l'utilisateur de saisir un chiffre entre 2 et 20 pour créer une f
   * [python](./arrow.py) → [@iioel](https://github.com/iioel)
   * [ruby](./arrow.rb) → [@loichu](https://github.com/loichu)
   * [rust](./arrow.rs) → [@iioel](https://github.com/iioel)
-  * [swift](./arrow.swift) -> [@epfl-dojo](https://github.com/epfl-dojo)
+  * [swift](./arrow.swift) → [@epfl-dojo](https://github.com/epfl-dojo)
