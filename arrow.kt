@@ -12,11 +12,11 @@ fun main(args: Array<String>) {
     }
 
     val size: Int? = try { args[0].toInt() } catch (e: NumberFormatException) { null }
-    val a: Int? = try { parseInt(args[0].toInt()) } catch (e: NumberFormatException) { null }
 
-    println(a)
     if (size == null)
       bye("${args[0]} is not a number dumbass")
+
+    size!!
 
     println("Drawing a $size sized arrow!")
 
