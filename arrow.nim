@@ -15,7 +15,7 @@ echo repeat(" ", sizeInt), "*"
 # head
 var rowSize: int = sizeInt
 for i in 2..sizeInt:
-  echo repeat(" ", rowSize - 1), "*", repeat(" ", (sizeInt - rowSize )* 2 + 1), "*"
+  echo repeat(" ", rowSize - 1), "*", repeat(" ", (sizeInt - rowSize ) * 2 + 1), "*"
   rowSize -= 1
 
 # base
