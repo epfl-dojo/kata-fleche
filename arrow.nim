@@ -1,3 +1,8 @@
+# HowTo
+#  1. install https://nim-lang.org
+#  2. compile with `nim c arrow.nim`
+#  3. launch with `./arrow`
+
 import strutils, parseutils
 
 echo "What size should the arrow be?"
