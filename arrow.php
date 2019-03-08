@@ -1,38 +1,43 @@
 <?php
 
-$height = 10;
+$size = (int)$argv[1];
 
-function line($height){
-    for ($i = 1; $i < ($height*2); $i++) {
-        echo "* ";
+if(($size < 2) || ($size > 20)){
+  print 'Veuillez saisir un chiffre entre 2 et 20';
+  exit;
+}
+
+function base($size){
+    for ($i = 1; $i < ($size*2); $i++) {
+        print "* ";
     }
 }
 
-function tige($height) {
-    echo "\n";
-    for($i = 0; $i < $height; $i++) {
-        echo str_repeat(' ', ($height*2)-2);
-        echo "*\n";
+function tail($size) {
+    print "\n";
+    for($i = 0; $i < $size; $i++) {
+        print str_repeat(' ', ($size*2)-2);
+        print "*\n";
     }
 }
 
-function arrow($height) {
+function arrow($size) {
     $nb = 0;
-    for($i = 0; $i < $height-1; $i++) {
+    for($i = 0; $i < $size-1; $i++) {
         $nb += 2;
-        $space = ($height*2)-$nb;
+        $space = ($size*2)-$nb;
         if($nb == 2){
-            echo str_repeat(' ', $space);
-            echo "*\n";
+            print str_repeat(' ', $space);
+            print "*\n";
         } else {
-            echo str_repeat(' ', $space);
-            echo "*";
-            echo str_repeat(' ', $nb*2-6);
-            echo " *\n";
+            print str_repeat(' ', $space);
+            print "*";
+            print str_repeat(' ', $nb*2-6);
+            print " *\n";
         }
     }
 }
 
-arrow($height);
-line($height);
-tige($height);
+arrow($size);
+base($size);
+tail($size);
