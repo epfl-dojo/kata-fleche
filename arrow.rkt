@@ -15,7 +15,7 @@
 (define-values (in out) (make-pipe))
 (define size (string->number (read-line (current-input-port))))
 
-;; Validation de la hauteur entrée
+;; Valider la hauteur entrée
 (if (exact-integer? size) 'OK ((display-line "Ceci n'est pas un nombre")(exit)))
 (if (or (< size 2) (> size 20))
     ((display-line "La hauteur de la flèche doit être comprise entre 2 et 20") (exit))
