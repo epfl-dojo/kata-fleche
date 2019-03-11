@@ -11,6 +11,9 @@
 ;; Get arrow height
 (println "What height the arrow should be ?")
 (def height (Integer/parseInt (read-line)))
+(if (or (> height 20) (< height 2)) 
+  ((println "Value must be between 2 and 20")
+   (System/exit 0)))
 
 ;; Draw the first point
 (println (repeatChar " " (- height 1)) "*")
