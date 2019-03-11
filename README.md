@@ -14,7 +14,7 @@ On demande à l'utilisateur de saisir un chiffre entre 2 et 20 pour créer une f
 ```
    *   
   * *  
- *   *
+ *   * 
 *******
    *   
    *   
@@ -32,7 +32,7 @@ On demande à l'utilisateur de saisir un chiffre entre 2 et 20 pour créer une f
     *         *    
    *           *   
   *             *  
- *               *
+ *               * 
 *******************
          *         
          *         
@@ -43,19 +43,20 @@ On demande à l'utilisateur de saisir un chiffre entre 2 et 20 pour créer une f
          *         
          *         
          *         
-         *          
+         *         
 ```
 
 ## Contributeurs (langages par ordre alphabétique)
   * [bash](./arrow.sh) → [@smussie](https://github.com/smussie)
+  * [clojure](./arrow.clj) → [@loichu](https://github.com/loichu) + [@epfl-dojo](https://github.com/epfl-dojo)
   * [dart](./arrow.dart) → [@epfl-dojo](https://github.com/epfl-dojo)
   * [go](./arrow.go) → [@gcmalloc](https://github.com/gcmalloc)
   * [lua](./arrow.lua) → [@strikerpt](https://github.com/strikerpt)
   * [nodejs](./arrow.js) → [@ponsfrilus](https://github.com/ponsfrilus)
   * [perl](./arrow.pl) → [@domq](https://github.com/domq)
+  * [php](./arrow.php) → [@hadrylouis](https://github.com/hadrylouis)
   * [python](./arrow.py) → [@iioel](https://github.com/iioel)
   * [ruby](./arrow.rb) → [@loichu](https://github.com/loichu)
   * [rust](./arrow.rs) → [@iioel](https://github.com/iioel)
   * [swift](./arrow.swift) → [@epfl-dojo](https://github.com/epfl-dojo)
-  * [php](./arrow.php) → [hadrylouis](https://github.com/hadrylouis)
 
