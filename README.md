@@ -14,7 +14,7 @@ On demande à l'utilisateur de saisir un chiffre entre 2 et 20 pour créer une f
 ```
    *   
   * *  
- *   * 
+ *   *
 *******
    *   
    *   
@@ -32,7 +32,7 @@ On demande à l'utilisateur de saisir un chiffre entre 2 et 20 pour créer une f
     *         *    
    *           *   
   *             *  
- *               * 
+ *               *
 *******************
          *         
          *         
@@ -54,6 +54,7 @@ On demande à l'utilisateur de saisir un chiffre entre 2 et 20 pour créer une f
   * [lua](./arrow.lua) → [@strikerpt](https://github.com/strikerpt)
   * [nim](./arrow.nim) → [@epfl-dojo](https://github.com/epfl-dojo)
   * [nodejs](./arrow.js) → [@ponsfrilus](https://github.com/ponsfrilus)
+  * [nodejs](./arrow2.js) → [@tacticsch](https://github.com/tacticsch)
   * [perl](./arrow.pl) → [@domq](https://github.com/domq)
   * [php](./arrow.php) → [@hadrylouis](https://github.com/hadrylouis)
   * [python](./arrow.py) → [@iioel](https://github.com/iioel)
