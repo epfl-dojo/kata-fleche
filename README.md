@@ -51,6 +51,7 @@ On demande à l'utilisateur de saisir un chiffre entre 2 et 20 pour créer une f
   * [clojure](./arrow.clj) → [@loichu](https://github.com/loichu) + [@epfl-dojo](https://github.com/epfl-dojo)
   * [dart](./arrow.dart) → [@epfl-dojo](https://github.com/epfl-dojo)
   * [go](./arrow.go) → [@gcmalloc](https://github.com/gcmalloc)
+  * [kotlin](./arrow2.kt) → [@epfl-dojo](https://github.com/epfl-dojo)
   * [lua](./arrow.lua) → [@strikerpt](https://github.com/strikerpt)
   * [nim](./arrow.nim) → [@epfl-dojo](https://github.com/epfl-dojo)
   * [nodejs](./arrow.js) → [@ponsfrilus](https://github.com/ponsfrilus)
