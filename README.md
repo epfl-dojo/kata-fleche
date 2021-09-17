@@ -54,6 +54,7 @@ On demande à l'utilisateur de saisir un chiffre entre 2 et 20 pour créer une f
   * [lua](./arrow.lua) → [@strikerpt](https://github.com/strikerpt)
   * [nim](./arrow.nim) → [@epfl-dojo](https://github.com/epfl-dojo)
   * [nodejs](./arrow3.js) → [@azecko](https://github.com/azecko)
+  * [nodejs](./arrow4.js) → [@D4rkHeart](https://github.com/D4rkHeart)
   * [nodejs](./arrow.js) → [@ponsfrilus](https://github.com/ponsfrilus)
   * [nodejs](./arrow2.js) → [@tacticsch](https://github.com/tacticsch)
   * [perl](./arrow.pl) → [@domq](https://github.com/domq)
