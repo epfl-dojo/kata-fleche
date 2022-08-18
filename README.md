@@ -95,6 +95,7 @@ afficher un *message d'erreur*.
   * [perl](./arrow.pl) → [@domq](https://github.com/domq)
   * [php](./arrow.php) → [@hadrylouis](https://github.com/hadrylouis)
   * [python](./arrow.py) → [@iioel](https://github.com/iioel)
+  * [python](./arrow2.py) → [@D4rkHeart](https://github.com/D4rkHeart)
   * [ruby](./arrow.rb) → [@loichu](https://github.com/loichu)
   * [rust](./arrow.rs) → [@iioel](https://github.com/iioel)
   * [swift](./arrow.swift) → [@epfl-dojo](https://github.com/epfl-dojo)
