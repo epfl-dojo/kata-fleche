@@ -82,23 +82,6 @@ afficher un *message d'erreur*.
 
 
 ## Contributeurs (langages par ordre alphabétique)
-<<<<<<< HEAD
-  * [bash](./arrow.sh) → [@smussie](https://github.com/smussie)
-  * [clojure](./arrow.clj) → [@loichu](https://github.com/loichu) + [@epfl-dojo](https://github.com/epfl-dojo)
-  * [dart](./arrow.dart) → [@epfl-dojo](https://github.com/epfl-dojo)
-  * [go](./arrow.go) → [@gcmalloc](https://github.com/gcmalloc)
-  * [kotlin](./arrow2.kt) → [@epfl-dojo](https://github.com/epfl-dojo)
-  * [lua](./arrow.lua) → [@strikerpt](https://github.com/strikerpt)
-  * [nim](./arrow.nim) → [@epfl-dojo](https://github.com/epfl-dojo)
-  * [nodejs](./arrow.js) → [@ponsfrilus](https://github.com/ponsfrilus)
-  * [nodejs](./arrow2.js) → [@tacticsch](https://github.com/tacticsch)
-  * [perl](./arrow.pl) → [@domq](https://github.com/domq)
-  * [php](./arrow.php) → [@hadrylouis](https://github.com/hadrylouis)
-  * [python](./arrow.py) → [@iioel](https://github.com/iioel)
-  * [ruby](./arrow.rb) → [@loichu](https://github.com/loichu)
-  * [rust](./arrow.rs) → [@iioel](https://github.com/iioel)
-  * [swift](./arrow.swift) → [@epfl-dojo](https://github.com/epfl-dojo)
-=======
 
 * [bash](./arrow.sh) → [@smussie](https://github.com/smussie)
 * [clojure](./arrow.clj) → [@loichu](https://github.com/loichu) + [@epfl-dojo](https://github.com/epfl-dojo)
@@ -117,4 +100,3 @@ afficher un *message d'erreur*.
 * [ruby](./arrow.rb) → [@loichu](https://github.com/loichu)
 * [rust](./arrow.rs) → [@iioel](https://github.com/iioel)
 * [swift](./arrow.swift) → [@epfl-dojo](https://github.com/epfl-dojo)
->>>>>>> master
